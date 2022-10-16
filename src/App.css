@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Old+Standard+TT:ital@1&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Amatic SC", cursive;
+}
+
+body {
+  background-color: rgba(173, 216, 230, 0.658);
+}
+
+.link-container {
+  font-family: "Kalam", cursive;
+  background-color: black;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.link {
+  color: white;
+  font-size: 25px;
+}
+
+.link:hover {
+    background-color: rgba(173, 216, 230, 0.658) ;
+    height: 60px;
+    color: black;
+    border:rgba(173, 216, 230, 0.658)  ;
+}
+
+.header-div {
+  margin: 20px;
+}
+
+.baslik {
+  color: black;
+  text-align: center;
+  font-size: 50px;
+}
+
+.card {
+  background-color: black;
+
+  height: 300px;
+}
+
+.img {
+  max-width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  display: flex;
+  margin: auto;
+}
+
+.title {
+  color: white;
+  font-size: 30px;
+}
+
+.col:hover {
+  filter: grayscale(100%);
+  transition: 0.5s;
+  /* opacity: 0.1; */
+}
+
+.text {
+  bottom: 0;
+
+  color: white;
+  display: none;
+   background-color: rgba(0, 0, 0, 0.57);
+}
+
+.col:hover .text {
+  display: block;
+  transition: all 2s linear;
+
+  position: absolute;
+  bottom: 0;
+
+  padding: 1rem;
+}
