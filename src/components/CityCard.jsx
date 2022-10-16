@@ -5,7 +5,7 @@ import {Row, Col, Card, Container} from 'react-bootstrap';
 const CityCard = ({props}) => {
     console.log({props});
   return (
-    <Container className=" card-container ">
+    <Container className=" card-container mb-4 ">
       <Row className="g-4">
         {props.map((i) => {
           console.log({i})
