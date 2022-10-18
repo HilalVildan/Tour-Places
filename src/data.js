@@ -80,3 +80,4 @@ export const data = [
       "https://d20aeo683mqd6t.cloudfront.net/articles/title_images/000/038/943/original/pixta_43064884_S.jpg?2019&d=750x400",
   },
 ];
+
