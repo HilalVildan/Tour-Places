@@ -25,6 +25,7 @@ const CityCard = ({props}) => {
                 </Card.Body>
               </Card>
             </Col>
+            
           );
           
         })}
