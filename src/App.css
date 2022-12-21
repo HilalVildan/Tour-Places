@@ -25,23 +25,21 @@ body {
 }
 
 .link:hover {
-    background-color: rgba(173, 216, 230, 0.658) ;
-    height: 60px;
-    color: black;
-    border:rgba(173, 216, 230, 0.658)  ;
+  background-color: rgba(173, 216, 230, 0.658);
+  height: 60px;
+  color: black;
+  border: rgba(173, 216, 230, 0.658);
 }
 
 .header-div {
   margin: 20px;
 }
 
-.baslik {
+.main-header {
   color: black;
   text-align: center;
   font-size: 50px;
 }
-
-
 
 .card {
   background-color: black;
@@ -73,7 +71,7 @@ body {
 
   color: white;
   display: none;
-   background-color: rgba(0, 0, 0, 0.57);
+  background-color: rgba(0, 0, 0, 0.57);
 }
 
 .col:hover .text {
